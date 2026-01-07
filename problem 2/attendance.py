@@ -1,6 +1,7 @@
 n=int(input("enter total class held:"))
-m=int(input("enter class attended:"))
+m=float(input("enter class attended:"))
 percentage=(m/n)*100
+
 if(percentage>=75):
     print("eligible ")
 else:
